@@ -1,0 +1,7 @@
+<app-card corBtn="purple"></app-card>
+<!-- <app-card banner="https://images.unsplash.com/photo-1541661538396-53ba2d051eed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbG9yc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60https://images.unsplash.com/photo-1541661538396-53ba2d051eed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbG9yc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" titulo="nice" corBtn="blue"> </app-card> -->
+<app-uploader (uploadCompleto)="mostrarMsg()"></app-uploader>
+<!-- Ao clicar no botão, desejo executar o método click() do input file -->
+<!-- Variáveis de Template - Template Variables -->
+<input type="file" #inputFile>
+<button id="btn"  (click)="inputFile.click()"> Selecionar arquivo </button>

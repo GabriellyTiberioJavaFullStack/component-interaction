@@ -1,0 +1,18 @@
+<div class="card">
+    <img [src]="banner" alt="Imagem" class="img1">
+    <div class="card-content">
+        <p class="card-title">
+            {{ titulo }}
+        </p>
+        <div class="card-author">
+            <img [src]="userFoto" alt="" class="author">
+
+            <p>
+                <strong> {{ username }} </strong>
+            </p>
+        </div>
+            <div class="card-footer"> 
+                <button class="read-more" [style]="'background-color:' + corBtn + ';'"> Ler mais </button>  
+        </div>
+    </div>
+</div>
